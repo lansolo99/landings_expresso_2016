@@ -120,7 +120,7 @@ header{
 
 #bandeau{
   position: relative;
-  height: 250px;
+  height: 270px;
   width: 700px;
   margin: auto;
   text-align: right;
@@ -131,7 +131,7 @@ header{
   top: 0px;
   left: -110px;
   width: 456px;
-  height: 250px;
+  height: 270px;
 }
 
 #informations {
