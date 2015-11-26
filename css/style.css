@@ -143,6 +143,11 @@ header{
   margin-top: 25px;
 }
 
+#informations {
+  width: 550px\9;
+}
+
+
 #informations h2 {
   display: inline-block;
   font-weight: 400px;
