@@ -450,8 +450,8 @@ i.picto_agence:before{
 
 #mentions_legales .mentions dt {
 	position: relative;
-  padding: 0px 0 7px 0;
-  padding-left: 30px;
+  padding: 0 0 5vw 0;
+  padding-left: 9vw;
   line-height: 5vw;
   text-align: justify;
   text-justify: inter-word;
