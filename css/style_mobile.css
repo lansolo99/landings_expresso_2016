@@ -429,6 +429,7 @@ i.picto_agence:before{
 
 /* Mentions légales */
 
+
 #mentions_legales {
 	font-size: 4vw;
   color: #666666;
@@ -455,7 +456,10 @@ i.picto_agence:before{
   line-height: 5vw;
   text-align: justify;
   text-justify: inter-word;
+}
 
+#mentions_legales .mentions dt:last-child {
+	padding-bottom: 10vw;
 }
 
 
