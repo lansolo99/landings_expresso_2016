@@ -14,13 +14,24 @@
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,100,300,500,700,900' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style_mobile.css">
+
 	<link rel="shortcut icon" href="images/favicon.ico">
 
 	<script src="js/modernizr.js"></script>
-	<script src="https://static.societegenerale.fr/pri/contenu/js/jquery-1-4-2-min.js" type="text/javascript"></script>
+	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 	<script src="js/bottin-popin.js"></script>
 
+	<script>
+	$(function() {
+		var icons = {
+         header: "iconClosed",    // custom icon class
+         activeHeader: "iconOpen" // custom icon class
+     };
+    $( "#accordion" ).accordion({ active: false, collapsible: true, icons: icons });
+  });
 
+	</script>
 
 </head>
 <body>
@@ -57,6 +68,80 @@
 							<strong>Un crédit vous engage et doit être remboursé. Vérifiez vos capacités de remboursement avant de vous engager.</strong></p>
 					</div>
 				</div>
+
+				<!--EXEMPLE-->
+				<div class="segment simulateur">
+					<div id="simulateur">
+						<a href="#" class="btn simulation"><i class="picto_simulation"></i>Faites votre simulation<i class="arrow"></i></a>
+					</div>
+				</div>
+
+
+				<!--BANNIERE BFM-->
+				<a href="#">
+					<div class="segment banniereBfm">
+						<div id="banniereBfm">
+								<img id="logoBfm"  src="images/logo_bfm_mobile.png" srcset="images/logo_bfm_mobile.png 1x, images/logo_bfm_mobile@2x.png 2x" alt="Logo BFM">
+								<div class="label">
+									<span>Vous êtes agent du secteur public ?</span><br>
+									Profitez de la Vente Flash qui vous est dédiée sur l’offre Prêt BFM Liberté !
+								</div>
+						</div>
+					</div>
+				</a>
+
+
+				<!--CONTACT-->
+				<a href="#">
+					<div class="segment contact">
+						<div id="contact">
+							<div class="separator"></div>
+							<p>Plus de renseignements :</p>
+							<a href="#" class="btn contact">
+								<i class="picto_tel"></i>
+								<div class="label"><span class="method">PAR TÉLÉPHONE</span><br>Appelez et dites<br><span class="expresso">"EXPRESSO"</span></div>
+							</a>
+							<a href="#" class="btn contact">
+								<i class="picto_agence"></i>
+								<div class="label"><span class="method">EN AGENCE</span><br>Prenez rendez-vous ici</div>
+							</a>
+						</div>
+					</div>
+				</a>
+
+
+				<!--MENTIONS LÉGALES-->
+					<div class="segment mentions_legales">
+						<div id="mentions_legales">
+
+
+							<div id="accordion">
+							  <h3>Mentions légales</h3>
+							  <div>
+									<dl class="mentions">
+										<dt>Réservé aux majeurs. Sous réserve d'acceptation de votre dossier par le prêteur Sogéfinancement SAS, 394 352 272 RCS Nanterre. Délai légal de rétractation : 14 jours à compter de votre acceptation du crédit.</dt>
+										<dt>Le coût de l'assurance varie en fonction de l'âge et de la situation personnelle de l'emprunteur. Contrat d'assurance collective, Décès - Perte Totale et Irréversible d'Autonomie - Invalidité permanente - Incapacité temporaire de travail, souscrit par SOGEFINANCEMENT auprès de SOGECAP (entreprise régie par le Code des assurances) et présenté par Société Générale, dont le siège social est situé 29, boulevard Haussmann (Paris IXe), en sa qualité d'Intermédiaire en assurances, immatriculation ORIAS n° 07 022 493 (www.orias.fr).</dt>
+									</dl>
+							  </div>
+							</div>
+
+						</div>
+				</div>
+
+				<!--FOOTER-->
+					<div class="segment footer">
+						<div id="footer">
+							<ul>
+								<li><a href="">Mentions légales</a></li>
+								<li><a href="">Site classique</a></li>
+								<li><a href="">Charte Cookies</a></li>
+							</ul>
+
+						</div>
+					</div>
+
+
+
 
 </body>
 </html>
