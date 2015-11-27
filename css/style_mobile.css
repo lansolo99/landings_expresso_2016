@@ -188,7 +188,7 @@ height: auto;
   width: 100%;
   -moz-transform: skewX(15deg);
   -ms-transform: skewX(15deg);
-  -webkit-transform: skewX(415deg);
+  -webkit-transform: skewX(15deg);
   transform: skewX(15deg);
   font-size: 3vw;
   font-weight: 400;
