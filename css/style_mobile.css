@@ -103,8 +103,9 @@ body {
 }
 
 .segment.footer {
-  background: #252525;
+  background: #ffffff;
   padding: 6%;
+  border-top: 1px solid #CCCCCC;
 }
 
 
@@ -502,12 +503,20 @@ i.picto_agence:before{
 
 /* Footer */
 
+#footer{
+
+  text-align: center;
+}
+
 #footer a {
-  color: #ffffff;
+  color: #666666;
   font-size: 3.4vw;
   font-weight: 400;
 }
 
+#footer ul{
+  margin-top: 5vw;
+}
 
 #footer ul li:first-child {
   border-left: 0;
@@ -520,4 +529,5 @@ i.picto_agence:before{
   border-left: 1px solid #b6b6b6;
   padding-left: 2vw;
   margin-left: 2vw;
+  margin-bottom: 2vw;
 }
