@@ -98,7 +98,8 @@ header{
 	position: relative;
 	clear:both;
   margin: auto;
-  width: 700px;
+  max-width: 1250px;
+  width: 95%;
 }
 
 
