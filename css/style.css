@@ -115,6 +115,10 @@ header{
   line-height: 27px
 }
 
+#exemple p strong{
+  font-size: 20px;
+}
+
 
 /* Bandeau */
 

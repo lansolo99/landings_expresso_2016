@@ -135,6 +135,9 @@ height: auto;
   line-height: 6.3vw;
 }
 
+#exemple p strong{
+  font-size: 5vw;
+}
 
 /* Bandeau */
 
