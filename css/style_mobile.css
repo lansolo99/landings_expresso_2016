@@ -515,7 +515,7 @@ i.picto_agence:before{
 }
 
 #footer ul{
-  margin-top: 5vw;
+  /* margin-top: 5vw; */
 }
 
 #footer ul li:first-child {
