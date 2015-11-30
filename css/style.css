@@ -91,6 +91,10 @@ body {
   padding: 30px 0;
 }
 
+.segment.mentions_legales.bfm {
+  border-top: 1px solid #cccccc;
+}
+
 
 /* Header */
 
@@ -102,6 +106,18 @@ header{
   width: 95%;
 }
 
+#logo{
+  display: inline-block;
+}
+
+#logoBfmTop{
+  display: inline-block;
+  width: 56px;
+  height: 56px;
+  padding-left: 40px;
+  margin-left: 40px;
+  border-left: 1px solid #9c9c9c;
+}
 
 /* Exemple */
 
@@ -409,7 +425,7 @@ i.arrow.blue:before{
 	position: relative;
   padding: 0px 0 7px 0;
   padding-left: 30px;
-  line-height: 16px;
+  line-height: 18px;
   text-align: justify;
   text-justify: inter-word;
 

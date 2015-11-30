@@ -122,6 +122,20 @@ header{
 #logo img{
 width: 40%;
 height: auto;
+display: inline-block;
+vertical-align: middle;
+}
+
+#logoBfmTop{
+  margin-left: 4vw;
+}
+
+#logoBfmTop img{
+  display: inline-block;
+  vertical-align: middle;
+  width: 9.5%;
+  height: auto;
+
 }
 
 
@@ -211,8 +225,10 @@ height: auto;
   font-weight: 400;
 }
 
-#informations h1 span sup{
-  font-size: 2vw;
+#informations h1 sup{
+  font-size: 5vw;
+  position: relative;
+  top:-2vw;
   line-height: 0;
   position: relative;
 }
