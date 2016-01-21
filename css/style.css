@@ -184,15 +184,11 @@ header{
   margin-top: 25px;
 }
 
-#informations_bfm{
-  position: relative;
-  z-index: 2;
-  width: 540px;
-  display: inline-block;
-  text-align: left;
-  margin-top: 25px;
+
+#informations.bfm{
   margin-bottom:55px;
 }
+
 
 #informations {
   width: 550px\9;
