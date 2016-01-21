@@ -136,6 +136,10 @@ height: auto;
   line-height: 6.5vw;
 }
 
+#exemple p span{
+  font-size: 4vw;
+}
+
 #exemple p strong{
   font-size: 5vw;
 }
@@ -280,7 +284,7 @@ height: auto;
   color: #ffffff;
   background: #4d9ed0;
   border-radius: 0.5vw;
-  border-bottom:4px solid #5a87a3;
+  border-bottom:3px solid #5a87a3;
   box-shadow: none;
 }
 
