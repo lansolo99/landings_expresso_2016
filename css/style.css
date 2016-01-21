@@ -338,11 +338,22 @@ header{
   background: #efefef;
   border: 4px solid #73b7df;
   transition: background 0.2s;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .btn.simulation:hover{
   background: #ffffff;
   transition: background 0.3s;
+}
+
+.btn.simulation div{
+  position: relative;
+}
+
+i.picto_simulation{
+  position: relative;
+  top:1px;
 }
 
 i.picto_simulation:before{
@@ -354,6 +365,7 @@ i.picto_simulation:before{
   background-image: url('../images/picto_simulation.png');
   background-image: -webkit-image-set( url('../images/picto_simulation.png') 1x, url('../images/picto_simulation-2x.png') 2x );
   background-size: 100%;
+  padding: 0;
 }
 
 i.arrow:before{
