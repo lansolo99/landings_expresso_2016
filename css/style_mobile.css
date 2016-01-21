@@ -119,9 +119,24 @@ header{
   max-width: 768px;
 }
 
+
 #logo img{
 width: 40%;
 height: auto;
+display: inline-block;
+vertical-align: middle;
+}
+
+#logoBfmTop{
+  margin-left: 4vw;
+}
+
+#logoBfmTop img{
+  display: inline-block;
+  vertical-align: middle;
+  width: 9.5%;
+  height: auto;
+
 }
 
 
