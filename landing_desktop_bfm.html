@@ -28,12 +28,23 @@
 	<script src="https://static.societegenerale.fr/pri/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/01-Pages/02-promo/2015/12/c739/c739-credit-conso-expresso/js/modernizr.js"></script>
 	<script src="https://static.societegenerale.fr/pri/contenu/js/jquery-1-4-2-min.js" type="text/javascript"></script>
 
-
+	<script type="text/javascript">
+	$( document ).ready(function() {
+	   $('.cookieCntr .close').click(function (e) {
+			e.preventDefault();
+			$(this).parent().remove();
+		});
+	});
+	</script>
 
 </head>
 <body>
 
-
+					<!-- COOKIE -->
+					<div class="cookieCntr">
+						<p>En poursuivant votre navigation sur ce site, vous acceptez l'utilisation de cookies pour vous proposer des services et offres adapt&eacute;s &agrave; vos centres d'int&eacute;r&ecirc;ts et r&eacute;aliser des statistiques de visites. Pour en savoir plus <a href="https://particuliers.societegenerale.fr/votre_site/configuration_securite/cnil.html">cliquez ici</a></p>
+						<div class="close"><img src="data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAABGAAD/4QMraHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjMtYzAxMSA2Ni4xNDU2NjEsIDIwMTIvMDIvMDYtMTQ6NTY6MjcgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzYgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkZFRTM0QUY5RUNEOTExRTRBNTAxRjBFQjE4RkMwN0U1IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkZFRTM0QUZBRUNEOTExRTRBNTAxRjBFQjE4RkMwN0U1Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RkVFMzRBRjdFQ0Q5MTFFNEE1MDFGMEVCMThGQzA3RTUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6RkVFMzRBRjhFQ0Q5MTFFNEE1MDFGMEVCMThGQzA3RTUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7/7gAmQWRvYmUAZMAAAAABAwAVBAMGCg0AAAUEAAAFVwAABa4AAAYA/9sAhAAEAwMDAwMEAwMEBgQDBAYHBQQEBQcIBgYHBgYICggJCQkJCAoKDAwMDAwKDAwNDQwMEREREREUFBQUFBQUFBQUAQQFBQgHCA8KCg8UDg4OFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wgARCAAXAB4DAREAAhEBAxEB/8QAmgABAQEBAAAAAAAAAAAAAAAAAAQHBgEBAQEBAAAAAAAAAAAAAAAAAAEDBBAAAQMFAQAAAAAAAAAAAAAABDABAgAQIAMFBhEAAgEBBgcAAAAAAAAAAAAAAQMCBAARIUESBRAgMXHBIhQSAQAAAAAAAAAAAAAAAAAAADATAQEAAQMEAwEAAAAAAAAAAAERIQAgMRAwQXFRgeHx/9oADAMBAAIRAxEAAAHduXSEFwM3qs72AAP/2gAIAQEAAQUCpjBnJgYNsIt3Ncjz/ONEbL//2gAIAQIAAQUCU//aAAgBAwABBQJT/9oACAECAgY/Ak//2gAIAQMCBj8CT//aAAgBAQEGPwK0qMNH1RGqS87jadJBgNQsaprzA4qpKBJjuCbpyrMYCEO+dnUDqcq3Bfs5nUMBOB1eOb//2gAIAQEDAT8h03SPwWT9mgv+FyMevfx15dlMLgnP044M3XIpnP5IPseZt//aAAgBAgMBPyHuf//aAAgBAwMBPyHuf//aAAwDAQACEQMRAAAQm0nskk//2gAIAQEDAT8Q1X9LUKhyRYiDQRSJpuLwqqBWZCkDaLKdeI9FsrLgrTKhqiXNG2Yp5kzKTmjuv//aAAgBAgMBPxDU2Gnd/9oACAEDAwE/EO5//9k=" width="30" height="23" alt=""></div>
+				</div>
 
 				<!--HEADER-->
 				<div class="segment header">
@@ -115,62 +126,59 @@ Banque Française Mutualiste - Société anonyme coopérative de banque au capit
 					</div>
 				</div>
 
-			<script type="text/javascript" src="https://static.societegenerale.fr//pri/contenu/js/n2gMesureAudienceUtil.js?t=402688"></script>
+			<!-- <script type="text/javascript" src="https://static.societegenerale.fr//pri/contenu/js/n2gMesureAudienceUtil.js?t=402688"></script>
 
-<script type="text/javascript">
-                        <!--
-                        if(typeof(xt_at)=="undefined") {
-                                xt_at = "";
-                        }
-                        if(xt_at!=""){
-                                if (window.xtparam!=null){window.xtparam+="&at="+xt_at;}
-                                else{window.xtparam="&at="+xt_at;};
-                        }
+			<script type="text/javascript">
+			                        if(typeof(xt_at)=="undefined") {
+			                                xt_at = "";
+			                        }
+			                        if(xt_at!=""){
+			                                if (window.xtparam!=null){window.xtparam+="&at="+xt_at;}
+			                                else{window.xtparam="&at="+xt_at;};
+			                        }
 
-                        if(typeof(xiti_xtati)=="undefined"){
-                                xiti_xtati=n2gAudienceComs();
-                        }
-                        if(xiti_xtati!= null && xiti_xtati!=""){
-                                xt_ati=xiti_xtati;    //Ad banners name (separated by ,)
-                                //             do not modify below
-                                if (window.xtparam!=null){window.xtparam+="&ati="+xt_ati;}
-                                else{window.xtparam="&ati="+xt_ati;};
-                        }
-                        //-->
-                </script>
+			                        if(typeof(xiti_xtati)=="undefined"){
+			                                xiti_xtati=n2gAudienceComs();
+			                        }
+			                        if(xiti_xtati!= null && xiti_xtati!=""){
+			                                xt_ati=xiti_xtati;    //Ad banners name (separated by ,)
+			                                //             do not modify below
+			                                if (window.xtparam!=null){window.xtparam+="&ati="+xt_ati;}
+			                                else{window.xtparam="&ati="+xt_ati;};
+			                        }
+			                        //
+			                </script>
 
-                <script type="text/javascript">
-                        xiti_xtnv = "document";
-                        xiti_xsite = "412253";
-                        xiti_xtsd = "https://logs128";
-                        if (typeof(xiti_xtn2)=="undefined"){
-                                xiti_xtn2 = "6";
-                        }
-                        if (typeof(xiti_xtpage)=="undefined"){
-                                       xiti_xtpage = "credits consommation::pret expresso tous projets::vente flash";
-                        }
-                        xiti_xtdi = "0";
-                </script>
-                <script type="text/javascript">
-                        <!--
-                                  n2gVarXiti(xiti_xtnv, xiti_xsite, xiti_xtsd, xiti_xtn2, xiti_xtpage, xiti_xtdi);
-                        //-->
-                </script>
+			                <script type="text/javascript">
+			                        xiti_xtnv = "document";
+			                        xiti_xsite = "412253";
+			                        xiti_xtsd = "https://logs128";
+			                        if (typeof(xiti_xtn2)=="undefined"){
+			                                xiti_xtn2 = "6";
+			                        }
+			                        if (typeof(xiti_xtpage)=="undefined"){
+			                                       xiti_xtpage = "credits consommation::pret expresso tous projets::vente flash";
+			                        }
+			                        xiti_xtdi = "0";
+			                </script>
+			                <script type="text/javascript">
+			                        n2gVarXiti(xiti_xtnv, xiti_xsite, xiti_xtsd, xiti_xtn2, xiti_xtpage, xiti_xtdi);
+			                        //
+			                </script>
 
-                <script type="text/javascript" src="https://static.societegenerale.fr//pri/xtclicks.js"></script>
+			                <script type="text/javascript" src="https://static.societegenerale.fr//pri/xtclicks.js"></script>
 
-                <script type="text/javascript" src="https://static.societegenerale.fr//pri/xtcore.js"></script>
+			                <script type="text/javascript" src="https://static.societegenerale.fr//pri/xtcore.js"></script>
 
 
-                <script type="text/javascript">
-                        <!--
-                        if (xtclzone>0) {xtNodesload();}
-                        //-->
-                </script>
+			                <script type="text/javascript">
+			                        if (xtclzone>0) {xtNodesload();}
+			                        //
+			                </script>
 
-                <noscript>
-                        <img width="1" height="1" alt="" src="https://logs128.xiti.com/hit.xiti?s=412253&s2=6&p=credits consommation::pret expresso tous projets::vente flash&di=0">
-                </noscript>
+			                <noscript>
+			                        <img width="1" height="1" alt="" src="https://logs128.xiti.com/hit.xiti?s=412253&s2=6&p=credits consommation::pret expresso tous projets::vente flash&di=0">
+			                </noscript> -->
 
 
 
